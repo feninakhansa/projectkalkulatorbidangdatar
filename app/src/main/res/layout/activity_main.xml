@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:fontFamily="cursive"
+        android:text="Kalkulator Bidang Datar"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        tools:ignore="MissingClass" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="166dp"
+        app:srcCompat="@drawable/persegi" />
+
+    <Button
+        android:id="@+id/persegii"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="persegi"
+        android:text="Hitung Persegi" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="164dp"
+        app:srcCompat="@drawable/segitiga" />
+
+    <Button
+        android:id="@+id/segitigaa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="segitiga"
+        android:text="Hitung Segitiga" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        app:srcCompat="@drawable/lingkaran" />
+
+    <Button
+        android:id="@+id/lingkarann"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="lingkaran"
+        android:text="Hitung Lingkaran" />
+
+</LinearLayout>
